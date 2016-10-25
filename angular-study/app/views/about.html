@@ -1,0 +1,22 @@
+<div class="container">
+	<div class="col-sm-8 col-sm offset-2">
+		<div class="page-header">
+			<h1>Angular Validation</h1>			
+		</div>
+
+		
+
+		<button class="btn btn-primary btn-block" ng-click="carregarContatos()">Carregar</button>
+
+		<p>  {{"2016-10-07T22:01:00Z" | date: 'MM/dd/yyyy  HH:mm'}} </p>
+
+		<div ng-repeat="coll in myCollections">
+			{{coll}}
+		</div>
+
+		<div ng-repeat="coll in contatos">
+			{{coll}}
+		</div>
+		<button class="btn btn-primary btn-block" ng-click="clear()">clear</button>
+	</div>
+</div>
